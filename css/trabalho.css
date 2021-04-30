@@ -1,58 +1,63 @@
 *{
-    margin: 0;
+  margin: 0;
 }
 
 body{
-    
-    background-color: rgb(105, 104, 104);
+  background-color: rgb(105, 104, 104);
 }
-  header{
-      background-color: #c5203c;
-      text-align: center;
-      ;
-  }
 
-  .nav_item{
-    display: inline;
-      color: white;
-      
-  }
+header{
+  background-color: #C5203C;
+  text-align: center;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .nav_text{
-    display: inline;
-      color: white;
-      padding-right: 60px;
-      padding-bottom: 30px;
-  }
+.nav_item{
+  display:inline;
+  padding-right: 60px;
+}
 
-  .grid-container {
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    width: 80%;
-    background-position: center center;
-    padding: 20px;
-    margin: auto;
-    text-align: center;
-  }
+.grid-container {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  width: 80%;
+  background-position: center center;
+  padding: 20px;
+  margin: auto;
+  text-align: center;
+}
 
-  .grid-item{
-      padding: 20px;
-      margin: 10px;
-      color: white;
-      font-weight: bold;
-      font-family: Arial, Helvetica, sans-serif;
-  }
-  .img{
-     
-      width: 95%;
-  }
+.grid-item{
+  padding: 20px;
+  margin: 10px;
+  color: white;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-  a{
-    text-decoration: none;
-    color: white;
-  }
+.img{
+  width: 95%;
+}
 
-  a:hover{
-    background-color: gray;
-    margin: auto;
-  }
+.material-icons.md-18 { 
+  font-size: 18px; 
+  padding-right: 4px;
+}
+
+span{
+  font-size: 22px;
+  padding-bottom: 5px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+  background-color: gray;
+  padding: 10px;
+}
