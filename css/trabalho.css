@@ -58,6 +58,5 @@ a{
 }
 
 a:hover{
-  background-color: gray;
-  padding: 10px;
+  color: #3A454B;
 }

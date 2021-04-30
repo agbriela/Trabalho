@@ -1,0 +1,16 @@
+#curriculo{
+    background-color: white;
+}
+
+.quadrado-dados{
+    transform: rotate(270deg);
+    text-align: center;
+    position: absolute;
+    margin-top: 10%;
+}
+
+.quadrado-texto{
+    background-color: #C5203C;
+    padding: 10px;
+    color: white;
+}
