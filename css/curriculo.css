@@ -1,32 +1,68 @@
-#curriculo{
+.container{
     background-color: white;
     width: 80%;
-    margin: auto;
 }
 
-main{
-    margin-left: 150px;
-    padding-top: 20px;
+.col-6.parte2{
+    background-color: lightgray;
+    text-align: right;
 }
 
-aside{
-    margin-left: 300px;
-    background-color: aqua;
+h1{
+    text-align: center;
+    margin-top: 10%;
 }
 
 h2{
     padding-top: 20px;
 }
 
-#container{
-    width: 30%;
-    text-align: center;
-    box-sizing: border-box;
-    margin-top: 40px;
-}
-
 .quadrado-texto{
     background-color: #C5203C;
-    padding: 10px;
+    padding: 7px;
     color: white;
+    margin-top: 140%;
+    margin-left: 20%;
+    font-size: 150%;
+    text-align: center;
+    transform: rotate(270deg);
+}    
+
+#fundo-foto{
+    background-color: #3A454B;
+    padding-block: 200px;
+    width: 100%;
 }
+
+#dados-contato{
+    margin-top: 20px;
+}
+
+.hab{
+    background-color: #C5203C;
+    padding: 8px 80px;
+    margin-top: 7px;
+    margin-bottom:16px;
+}
+
+#habilidades{
+    line-height: 30px;
+    text-align: left;
+}
+
+.grafico{
+    background-color: #C5203C;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+}
+
+.row.qualidades{
+    text-align: center;
+}
+
+.dados-inseridos{
+    margin-top: 20%;
+}
+
