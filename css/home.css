@@ -60,3 +60,7 @@ a{
 a:hover{
   color: #3A454B;
 }
+
+.link-curriculo:hover{
+  color:black;
+}

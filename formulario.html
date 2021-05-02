@@ -1,80 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <link rel="stylesheet" href="css/trabalho.css">
-        <link rel="stylesheet" href="css/formulario.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Currículo</title>
-    </head>
-    <body>
-        <header>
-            <ul>
-                <li class="nav_item">
-                    <a href="trabalho.html"><i class="material-icons md-18">house</i><span>Home</span></a>
-                </li>
-    
-                <li class="nav_item">
-                    <a href="formulario.html"><i class="material-icons md-18">text_snippet</i><span>Novo Currículo
+
+<head>
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/formulario.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-grid.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo</title>
+</head>
+
+<body>
+    <header>
+        <ul>
+            <li class="nav_item">
+                <a href="home.html"><i class="material-icons md-18">house</i><span>Home</span></a>
+            </li>
+
+            <li class="nav_item">
+                <a href="formulario.html"><i class="material-icons md-18">text_snippet</i><span>Novo Currículo
                     </span></a>
-                </li>
-    
-                <li class="nav_item">
-                    <a href="sobre.html"><i class="material-icons md-18">auto_stories</i><span>Sobre</span></a>
-                </li>
-            </ul>
-        </header>
+            </li>
 
-        <div id="form">
-            <form id="container">
-                <h2> Preencha seu currículo: </h2> 
+            <li class="nav_item">
+                <a href="sobre.html"><i class="material-icons md-18">auto_stories</i><span>Sobre</span></a>
+            </li>
+        </ul>
+    </header>
 
-                <label> Nome: </label>
-                <input type="text">
-                <br>
+    <div class="container">
+        <form action="curriculo.html">
+            <h2> Preencha seu currículo: </h2>
+            <h3> Dados Pessoais</h3>
+            <hr>
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-4">
+                    <label class="label-form"> Nome: </label>
+                    <br>
+                    <label class="label-form"> E-mail: </label>
+                    <br>
+                    <label class="label-form"> Telefone: </label>
+                    <br>
+                    <label class="label-form"> Endereço: </label>
+                    <br>
 
-                <label> E-mail: </label>
-                <input type="email">
-                <br>
 
-                <label> Telefone: </label>
-                <input type="tel">
-                <br>
+                </div>
+                <div class="col-4">
+                    <input class="input-form" type="text">
 
-                <label> Endereço: </label>
-                <input type="text">
-                <br>
+                    <input class="input-form" type="email">
 
-                <label class="complemento"> Experiência: </label>
-                <textarea rows="3" cols="25"> </textarea>
-                <br>
-                
-                <label class="complemento"> Formação: </label>
-                <textarea rows="3" cols="25"> </textarea>
-                <br>
+                    <input class="input-form" type="tel">
 
-                <label> Habilidades: </label>
-                <input type="text">               
-                <label> Nível: </label>
-                <input type="range" min="1" max="100" value="50" class="slider" id="habilidades-range">
-                <br>
+                    <input class="input-form" type="text">
 
-                <label > Idiomas: </label>
-                <input type="text">  
-                <label> Nível: </label>
-                <input type="range" min="1" max="100" value="50" class="slider" id="idiomas-range">
-                <br>
+                </div>
+                <div class="col-2"></div>
+            </div>
+            <h3> Dados Profissionais</h3>
+            <hr>
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-4">
+                    <label class="label-form"> Nome do Cargo: </label>
+                    <br>
+                    <label class="label-form"> Duração: </label>
+                    <br>
+                    <label class="label-form"> Descrição da função: </label>
+                    <br>
+                </div>
+                <div class="col-4">
+                    <input class="input-form" type="text">
 
-                <label > Qualidades: </label>
-                <input type="text">
-                <label> Nível: </label>
-                <input type="range" min="1" max="100" value="50" class="slider" id="idiomas-range">
-                <br>
+                    <input class="input-form" type="text">
 
-                <input type="submit" id="botao-enviar">
-            </form>
-        </div>
-    </body>
+                    <input class="input-form" type="text">
+                </div>
+                <div class="col-2"></div>
+            </div>
+            <h3> Dados Acadêmicos</h3>
+            <hr>
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-4">
+                    <label class="label-form"> Nome do Curso: </label>
+                    <br>
+                    <label class="label-form"> Duração: </label>
+                    <br>
+                    <label class="label-form"> Descrição do curso: </label>
+                    <br>
+                </div>
+                <div class="col-4">
+                    <input class="input-form" type="text">
+
+                    <input class="input-form" type="text">
+
+                    <input class="input-form" type="text">
+                </div>
+                <div class="col-2"></div>
+            </div>
+            <h3> Skills</h3>
+            <hr>
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-4">
+                    <label class="label-form"> Habilidades técnica: </label>
+                    <br>
+                    <label class="label-skills"> Nível: </label>
+                    <br>
+                    <label class="label-form"> Linguagens: </label>
+                    <br>
+                    <label class="label-skills"> Nível: </label>
+                    <br>
+                    <label class="label-form"> Habilidade comportamental: </label>
+                    <br>       
+                    <label class="label-skills"> Nível: </label>
+                    <br>
+                </div>
+                <div class="col-4">
+                    <input class="input-form" type="text">
+
+                    <input type="range" min="1" max="100" value="50" class="slider">
+
+                    <input class="input-form" type="text">
+
+                    <input type="range" min="1" max="100" value="50" class="slider">
+
+                    <input class="input-form" type="text">
+
+                    <input type="range" min="1" max="100" value="50" class="slider">
+                </div>
+                <div class="col-2"></div>
+            </div>
+            <input type="submit" id="botao-enviar">
+        </form>
+    </div>
+</body>
+
 </html>
+
+
+
+
+
